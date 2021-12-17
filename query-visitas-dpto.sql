@@ -12,5 +12,5 @@ WHERE partition_date between "2021-09-01" AND "2021-11-30"
       AND depto IN ("INFORMÁTICA E ACESSÓRIOS (60)", "GERAL")
       #AND depto = "GERAL"
       #AND origem = "adobe"
-GROUP BY 1,2,3,4,5,6
+GROUP BY 1,2,3,4,5,7
 ORDER BY 2,1,3,5 ASC
