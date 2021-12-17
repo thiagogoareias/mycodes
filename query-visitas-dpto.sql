@@ -7,7 +7,7 @@ SELECT
       device,
       SUM(visitas) as visitas,
 FROM `seo-analytics-219818.evaluated_navigation.visitas_hits` 
-WHERE partition_date between "2021-09-01" AND "2021-11-30"
+WHERE partition_date between "2019-01-01" AND "2021-11-30"
   AND brand = "ACOM"
       AND depto IN ("INFORMÁTICA E ACESSÓRIOS (60)", "GERAL")
       #AND depto = "GERAL"
